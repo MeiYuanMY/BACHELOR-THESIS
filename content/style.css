@@ -132,10 +132,9 @@ figcaption {
   margin: 1rem 0;
 }
 .img-xys {
-
-  display: inline-block;
+display: inline-block;
   height: auto;
-  max-width: 70%;
+  max-width: 300px;
 }
 
 .page {
