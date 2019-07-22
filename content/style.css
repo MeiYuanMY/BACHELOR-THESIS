@@ -30,9 +30,9 @@ font-family: 'ebgaramondregular', Baskerville, "Palatino Linotype", Palatino, "C
 
 }
 
-#titela{ font-size: 5rem;
+#titela{ font-size: 4.3rem;
 	text-transform: uppercase;
-	font-align: center;
+	;
 	 
 
 }
@@ -67,11 +67,11 @@ h3 {
 }
 
 h4 {
-font-size: 2rem;
+font-size: 1.5rem;
   margin-bottom: 1.4rem;
 }
 
-h5 { font-size: 1.5rem;
+h5 { font-size:1rem;
 	
 }
 
@@ -80,7 +80,7 @@ sup {
 }
 
 .content, .intro {
-  margin: 20px auto;
+  margin: auto auto;
   max-width: 1000px;
   padding: 20px;
 }
