@@ -131,6 +131,12 @@ figcaption {
   padding: 1rem;
   margin: 1rem 0;
 }
+.img-xys {
+
+  display: inline-block;
+  height: auto;
+  max-width: 70%;
+}
 
 .page {
   width: var(--bindery-page-width);
