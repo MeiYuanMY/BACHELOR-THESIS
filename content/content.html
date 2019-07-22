@@ -6,16 +6,7 @@
   <title>Publish</title>
 
   <link rel="stylesheet" type="text/css" href="style.css" >
-    
-<div id="content">
-  <!-- The contents of your book -->
-</div>
- 
 
-
-    
-    
-    
 </head>
 
 <body>
@@ -39,194 +30,270 @@
 <br></br>
 <br></br>
 
-	<article id="autor"> Yuan Mei
+	<article id="autor"> Yuan Mei</b> </br>
 	  </article>
 
 <h1></h1>
 <br></br><br></br><br></br></br><br></br>
+<article id="autor"> <br> Gewidmet an all' die mutigen Autoren. </br>
+	 Danke und Chapeau!
+	  </article>
 
 
-
-<h1>Index</h1>
+    <h1>Index</h1>
 <br></br>
     <ul class="toc">
-	<li><a href="#section1">Abstract</a></li>
+	<li><a href="#section1">Vorwort</a></li>
 <br>  </br>
-      <li><a href="#section2">1.Introduction</a></li>
-      
+      <li><a href="#section2">Martin Luther</a></li>
+      <li><a href="#section3">95 Thesen</a></li>
 <br>  </br>
-      <li><a href="#section3">2.Literature Review</a></li>
-      
+      <li><a href="#section4">Friedrich Schiller</a></li>
+      <li><a href="#section5">Die Räuber</a></li>
 <br>  </br>
-      <li><a href="#section4">3.Material and Method</a></li>
- <br>  </br>
-
- <li><a href="#section5">4.Result and Discussion</a></li>
-
-<br>  </br>
-
- <li><a href="#section6">5.Discussion</a></li>
-<br>  </br>
-
-<li><a href="#section7">References </a></li>
-<br>  </br>
-
+      <li><a href="#section6">Walt Whitman</a></li>
+      <li><a href="#section7">Leaves of Grass</a></li>
     </ul>
 
-
-<h1 id="section1"> Abstract </h1>
-
-
-The approach of machine learning has already been applied to logo design. This study aims to explore how a logo generator creates logos with machine learning. Aiming to uncover the mechanisms of machine learning, a reverse study of the logo generating program Brandmark is conducted by analyzing correlations between inputs and outputs. The results obtained in this research uncover the mechanisms of logo generators and reveal three factors responsible for the low design quality of Brandmark’s logos: inaccuracy of icon creation, singular correlations between inputs and outputs and lack of quality evaluation. Lastly, possible measures for addressing these weak points are suggested.
+<h1 id="section1"> Vorwort </h1>
 <br></br>
-Keywords: Logo, logo-generator, machine learning 
+Hallo, 
+was versteht man denn eigentlich Erfolg? 
+So viel Geld mit seiner Publikation zu machen, dass man darin schwimmen kann? Oder ist es doch der fünfte Literatur-Nobelpreis? Ist es Anerkennung unter den Kollegen oder ein Kommentar eines bekannten Kritikers, dem die Publikation gefallen hat? 
+Erfolg ist schwierig zu messen. Ein Autor, der im Leben fünf Bücher verkauft hat, kann für jedes Einzelne gefeiert werden, Einer der Hunderte publiziert für keines. Heute kennen wir die Namen der Berühmtheiten der Literaturgeschichte aber wir kennen nicht unbedingt ihre Geschichten und den schweren Weg, den sie zum Teil gehen mussten, um zu ihrem Ruhm zu gelangen. Heute ist es einfacher denn je etwas zu publizieren. Das Internet und Print on Demand machen es viel leichter. Gehen wir nur ein paar Jahre zurück sehen wir, dass das nicht immer der Fall war. Diese Geschichten, erfolgreich oder nicht zeigen die Mühen auf mit denen Autoren die selbst publizieren wollten zu kämpfen hatten. Es soll dich inspirieren es selbst zu versuchen und all die Hätte, Wenns und Abers zu überwinden. Publiziere dein Werk, lass dich von Kritikern zerreissen, inspiriere andere Schreiber, lass dich feiern, lass dir von deiner Mama sagen, dass sie deinen Schreibstil ganz toll findet, gewinne einen Preis, lösche, kopiere, trink zu viel Kaffee, publiziere. Denn ganz gleich ob Hit oder Shit. Manch' literarisches Meisterwerk wäre der Welt verloren gegangen wenn unsere Autoren nicht gesagt hätten: Ich mach das jetzt.
 
 
 
 <br> </br>
 
-<h1 id="section2"> 1.Introduction </h1>
+<h1 id="section2"> Martin Luther </h1>
 <br> </br>
 	
 	
-One of the earliest logos in logo history was the logo of the English William Bass brewery, whose products have been displaying a red triangle since around 1875. The Bass Triangle was the first ever trademark to be registered in the United Kingdom and is thus the most strongly protected in the market (Remington, Müller and Wiedemann, 2018, p.11). About 150 years later, logos still play a vital role in the capital market. Currently, a logo is a crucial factor in shaping a firm’s public image (Kamekura, 1988). A logo is a distinctive symbol representing a company (Adams, 2008), and its goal is to represent the company’s culture and values. In order to achieve these goals, logo creation is a complex activity requiring knowledge in communication, marketing, graphics, sociology, psychology, design, and the science of colors etc. (Adir, Adir and Pascu, 2014). The logo designer is demanded to interpret the full meaning of the value of the company and express it through one symbol (Remington, Müller and Wiedemann, 2018, p.57). This work requires a high level of abstraction and artistic talent. Thus, it has always been considered that a successful logo design can only be achieved by humans. Indeed, most of the time, when start-ups want to bring their business or products to the market, they will find a designer or design agency to create a logo for their company – an assignment that can take many months and cost large sums of money. 
-Today, start-ups have another option that offers greater efficiency and a lower price. This option is the use of logo generators that are based on a ‘Modern Approach’, meaning “Artificial Intelligence” (Russell and Norvig, 2016). Artificial Intelligence is a branch of computer science that aims to create intelligent machines that work and react like humans through machine learning. Machine learning gives computers the ability to learn without being explicitly programmed (Samuel, 1959). The process of learning begins with observations of data, such as examples, direct experience, in order to look for patterns in data and make better predictions in the future (Expertsystem.com, 2019). The approach of machine learning has already been widely applied to logo design. This study aims to explore how a logo generator creates logos with machine learning. In order to gain a better understanding of computerized logo design, it is important to realize how logo design generally works. Design is the method of putting form and content together (Rand, 2017). Logo design organizes the basic composing elements and forms them as a complex identification system. When successfully done, customer expectations are usually met. In a logo generator program, the user is just required to enter a few words, and the program will automatically generate thousands of logos. That means that a machine perceptron creates logos from the information that is given by users. A logo generator creates logos by processing input-data into a combination of forms and contents, seemingly predicting user expectations. This paper aims to uncover the mechanisms of logo generating programs by conducting a reverse study of the logo generating program “Brandmark”. This program applies the latest algorithm of machine learning, incorporating convolutional nets, word embeddings and Convolutional Neural Network (GNN) (Qiao, 2017). The correlation between the outputs of and the inputs in Brandmark will be analyzed because in neural network design, machine learning occurs by finding the connection between input and output (Dormehl, 2016). The goals of this study are two-fold: deconstructing Brandmark’s working mechanisms to help designers understand machine learning and analyzing its problems to propose possible improvements for logo generators.
-	<br> </br>
-	
-<h1 id="section3"> 2.Literature Review</h1>
-	<br> </br>
-Since modernist logos appeared in 1920, a number of studies have sought to investigate logo-related elements. Adir, Adir and Pascu (2012) demonstrated in their research published in the Journal ‘Social and Behavioral Sciences’ that logos serve contacting, explanatory, denotative, identifying, signifying, transforming and aesthetic functions. A logo has a significant impact on brand building, positioning, and competition for modern enterprises because it demonstrates how a corporation presents itself and communicates with the public. Logos combine core visual elements (typeface, color, symbol) and an editorial element (layout) to form a unique and cohesive message (Adams, Morioka and Stone, 2006, p18). According to a survey conducted by Bresciani and Del Ponte (2017), most customers group logos into three categories: brand icon and/or name, colored logos, and black logos. Logos composed of an icon plus a brand name are perceived as significantly more attractive than logos made of one component only. Influenced by the Bauhaus design movement, the new aesthetic discipline of commercial art designs, logos as abstract shapes and skillfully intermingles them with geometric forms (Remington, Müller and Wiedemann, 2018, p.11). The geometric shapes arouse certain associations and therefore suggest an image of the company: circle – perfection, balance; square – stability, power; rectangle – duration, progress; ellipse – continuing, searching; triangle – harmony, dynamic, or forward looking; spiral – advancement, detaching; sphere – perfection, finality; pyramid – integration, convergence; cube – stability, integrity (Adir, Adir and Pascu, 2012). In addition to incorporating geometric forms, a logo will reach its maximum potential by using a signature color. Color defines the appearance and character of a logo and, just like geometries, arouses certain associations: red means confidence, youth, and power, orange expresses friendliness, warmth, and energy, and black is associated with reliability, sophistication, and experience. A logo designer is aware of the fact that color can make a logo memorable or forgettable (Rider, 2009, p.19). Just like geometries and colors, typefaces affect the overall impression as well. The typeface creates impressions such as pleasing, engaging, reassuring, and prominent. The current aesthetic design principles suggest that logo designers select a typeface with the use of six underlying design dimensions: elaborate, harmony, natural, flourish, weight, and compressed (Henderson, Giese and Cote, 2004). The understanding of these core elements and construction rules of logos made it possible to apply Artificial Intelligence, more precisely the method of machine learning, to the field of logo design. Machine learning uses an explicit set of rules to describe a program’s possible behavior: a machine learning system looks for patterns within sets of example behavior in order to produce an approximate representation of rules themselves (Hebron, 2016). From this approach, a machine perceptron masters the pattern of logo design after data training. With the constituents of logo design, namely color scheme, icons and font, theses elements and input data will be processed in CNN (Convolutional Neural Network), a specific type of artificial neural network has an input layer, an output layer and various hidden layers, some of these layers are convolutional, which was inspired by the organization of the visual brain cortex (Saha, 2018). Then countless logos are created by the logo generator. More impressively, through reinforcement learning, the logo generator constantly updates its parameters in its algorithm model and seeks to improve its outputs.
- <br></br><br></br>
-
-
-
-<h1 id="section3">3.Material and Method</h1>
+Hallo, mein Name ist Martin Luther!<br>
+Ich habe am 31. Oktober meine Selbstpublikation in der Form einer Gebiete Spezifischen Installation zur schau gestellt. Es ging mir dabei weniger um Profit sondern um einen Aufruf 
+um das Bestehende System zu kritisieren. Dies gelang mir auch insofern als das ich noch heute für diese Installation bekannt bin und sie auch unter großen Druck nicht zurücknahm.
+Meine Publikation fand bei meinen Zeitgenossen großen Anklang doch war die Meinung darüber doch sehr gespalten. Manche behaupten sogar, dass sie der Auslöser eines Krieges seien.
 <br></br>
+	
+	  <h1 id="section3"> 95 Thesen</h1>
+	<br> </br>
 
-The purpose of this study is to gain an understanding of how a machine perception generates logos. The research takes the form of a reverse study, which means it will reveal design principles by starting with the results. The program generates a large number of logos based on the information the user enters. In order to explore the mechanism of logo generators, the correlation between outputs (logos) and inputs (information entered by the user) will be analyzed. This study concentrates on the logo generating program Brandmark. Brandmark has generated logos with deep learning for more than 108,704 users (Qiao, 2017). The research will be divided into three parts: 1. the observation of the work process of Brandmark; 2. the disassembly of the basic components of Brandmark; 3. the analysis of the correlation between inputs and outputs. 
+<strong>1. </strong>Aus Liebe zur Wahrheit und in dem Bestreben, diese zu ergründen, soll in Wittenberg unter dem Vorsitz des ehrwürdigen Vaters Martin Luther, Magisters der freien Künste und der heiligen Theologie sowie deren ordentlicher Professor daselbst, über die folgenden Sätze disputiert werden. Deshalb bittet er die, die nicht anwesend sein und mündlich mit uns debattieren können, dieses in Abwesenheit schriftlich zu tun. Im Namen unseres Herrn Jesu Christi, Amen.
+	
+	<br></br>
+ <strong>2. </strong> Da unser Herr und Meister Jesus Christus spricht: "Tut Buße" usw. (Matth. 4,17), hat er gewollt, dass das ganze Leben der Gläubigen Buße sein soll.
+	  <br></br>
+ <strong>3.</strong> Dieses Wort kann nicht von der Buße als Sakrament - d. h. von der Beichte und Genugtuung -, die durch das priesterliche Amt verwaltet wird, verstanden werden.
+	  <br></br>
+ <strong>4. </strong>Es bezieht sich nicht nur auf eine innere Buße, ja eine solche wäre gar keine, wenn sie nicht nach außen mancherlei Werke zur Abtötung des Fleisches bewirkte.
+	  <br></br>
+<strong>5. </strong>  Daher bleibt die Strafe, solange der Hass gegen sich selbst - das ist die wahre Herzensbuße - bestehen bleibt, also bis zum Eingang ins Himmelreich.
+	  <br></br>
+<strong>6. </strong>  Der Papst will und kann keine Strafen erlassen, außer solchen, die er auf Grund seiner eigenen Entscheidung oder der der kirchlichen Satzungen auferlegt hat.
+	  <br></br>
+<strong>7. </strong>   Der Papst kann eine Schuld nur dadurch erlassen, dass er sie als von Gott erlassen erklärt und bezeugt, natürlich kann er sie in den ihm vorbehaltenen Fällen erlassen; wollte man das gering achten, bliebe die Schuld ganz und gar bestehen.
+	  <br></br>
+<strong>8. </strong>  Gott erlässt überhaupt keinem die Schuld, ohne ihn zugleich demütig in allem dem Priester, seinem Stellvertreter, zu unterwerfen.
+	  <br></br>
+<strong>9. </strong>  Die kirchlichen Bestimmungen über die Buße sind nur für die Lebenden verbindlich, den Sterbenden darf demgemäß nichts auferlegt werden.
+	  <br></br>
+<strong>10. </strong>  Daher handelt der Heilige Geist, der durch den Papst wirkt, uns gegenüber gut, wenn er in seinen Erlassen immer den Fall des Todes und der höchsten Not ausnimmt.
+	  <br></br>
+<strong>11. </strong>  Unwissend und schlecht handeln diejenigen Priester, die den Sterbenden kirchliche Bußen für das Fegefeuer aufsparen.
+	  <br></br>
+<strong>12. </strong>  Die Meinung, dass eine kirchliche Bußstrafe in eine Fegefeuerstrafe umgewandelt werden könne, ist ein Unkraut, das offenbar gesät worden ist, während die Bischöfe schliefen.
+	  <br></br>
+<strong>13. </strong>  Früher wurden die kirchlichen Bußstrafen nicht nach, sondern vor der Absolution auferlegt, gleichsam als Prüfstein für die Aufrichtigkeit der Reue.
+	  <br></br>
+<strong>14. </strong>  Die Sterbenden werden durch den Tod von allem gelöst, und für die kirchlichen Satzungen sind sie schon tot, weil sie von Rechts wegen davon befreit sind.
+	  <br></br>
+<strong>15. </strong> Ist die Haltung eines Sterbenden und die Liebe (Gott gegenüber) unvollkommen, so bringt ihm das notwendig große Furcht, und diese ist um so größer, je geringer jene ist.
+	  <br></br>
+<strong>16. </strong> Diese Furcht und dieser Schrecken genügen für sich allein - um von anderem zu schweigen -, die Pein des Fegefeuers auszumachen; denn sie kommen dem Grauen der Verzweiflung ganz nahe.
+	  <br></br>
+<strong>17. </strong>  Es scheinen sich demnach Hölle, Fegefeuer und Himmel in der gleichen Weise zu unterscheiden wie Verzweiflung, annähernde Verzweiflung und Sicherheit.
+	  <br></br>
+<strong>18. </strong>  Offenbar haben die Seelen im Fegefeuer die Mehrung der Liebe genauso nötig wie eine Minderung des Grauens.
+	  <br></br>
+<strong>19. </strong>  Offenbar ist es auch weder durch Vernunft- noch Schriftgründe erwiesen, daß sie sich außerhalb des Zustandes befinden, in dem sie Verdienste erwerben können oder in dem die Liebe zunehmen kann.
+	  <br></br>
+<strong>20. </strong>  Offenbar ist auch dieses nicht erwiesen, dass sie - wenigstens nicht alle - ihrer Seligkeit sicher und gewiß sind, wenngleich wir ihrer völlig sicher sind.
+	  <br></br>
+<strong>21. </strong>  Daher meint der Papst mit dem vollkommenen Erlass aller Strafen nicht einfach den Erlass sämtlicher Strafen, sondern nur derjenigen, die er selbst auferlegt hat.
+	  <br></br>
+<strong>22. </strong>  Deshalb irren jene Ablassprediger, die sagen, dass durch die Ablässe des Papstes der Mensch von jeder Strafe frei und los werde.
+	  <br></br>
+<strong>23. </strong>  Vielmehr erlässt er den Seelen im Fegefeuer keine einzige Strafe, die sie nach den kirchlichen Satzungen in diesem Leben hätten abbüßen müssen.
+	  <br></br>
+<strong>24. </strong> Wenn überhaupt irgendwem irgendein Erlass aller Strafen gewährt werden kann, dann gewiß allein den Vollkommensten, das heißt aber, ganz wenigen.
+	  <br></br>
+<strong>25. </strong>  Deswegen wird zwangsläufig ein Großteil des Volkes durch jenes in Bausch und Bogen und großsprecherisch gegebene Versprechen des Straferlasses getäuscht.
+	  <br></br>
+<strong>26. </strong>  Die gleiche Macht, die der Papst bezüglich des Fegefeuers im allgemeinen hat, besitzt jeder Bischof und jeder Seelsorger in seinem Bistum bzw. seinem Pfarrbezirk im besonderen.
+	  <br></br>
+<strong>27. </strong> Der Papst handelt sehr richtig, den Seelen (im Fegefeuer) die Vergebung nicht auf Grund seiner - ihm dafür nicht zur Verfügung stehenden - Schlüsselgewalt, sondern auf dem Wege der Fürbitte zuzuwenden.
+	  <br></br>
+<strong>28. </strong>  Menschenlehre verkündigen die, die sagen, daß die Seele (aus dem Fegefeuer) emporfliege, sobald das Geld im Kasten klingt.
+	  <br></br>
+<strong>29. </strong>  Gewiss, sobald das Geld im Kasten klingt, können Gewinn und Habgier wachsen, aber die Fürbitte der Kirche steht allein auf dem Willen Gottes.
+	  <br></br>
+<strong>30. </strong>  Wer weiß denn, ob alle Seelen im Fegefeuer losgekauft werden wollen, wie es beispielsweise beim heiligen Severin und Paschalis nicht der Fall gewesen sein soll.
+	  <br></br>
+<strong>31. </strong>  Keiner ist der Echtheit seiner Reue gewiss, viel weniger, ob er völligen Erlass (der Sündenstrafe) erlangt hat.
+	<br></br>  
+<strong>32. </strong>  So selten einer in rechter Weise Buße tut, so selten kauft einer in der rechten Weise Ablass, nämlich außerordentlich selten.
+	  <br></br>
+<strong>33.</strong>  Wer glaubt, durch einen Ablassbrief seines Heils gewiss sein zu können, wird auf ewig mit seinen Lehrmeistern verdammt werden.
+	  <br></br>
+<strong>34. </strong>  Nicht genug kann man sich vor denen hüten, die den Ablass des Papstes jene unschätzbare Gabe Gottes nennen, durch die der Mensch mit Gott versöhnt werde.
+	  <br></br>
+<strong>35. </strong>  Jene Ablassgnaden beziehen sich nämlich nur auf die von Menschen festgesetzten Strafen der sakramentalen Genugtuung.
+	  <br></br>
+<strong>36. </strong>  Nicht christlich predigen die, die lehren, dass für die, die Seelen (aus dem Fegefeuer) loskaufen oder Beichtbriefe erwerben, Reue nicht nötig sei.
+	  <br></br>
+<strong>37. </strong>  Jeder Christ, der wirklich bereut, hat Anspruch auf völligen Erlass von Strafe und Schuld, auch ohne Ablassbrief.
+	  <br></br>
+<strong>38. </strong>  Jeder wahre Christ, sei er lebendig oder tot, hat Anteil an allen Gütern Christi und der Kirche, von Gott ihm auch ohne Ablassbrief gegeben.
+	  <br></br>
+<strong>39. </strong>  Doch dürfen der Erlass und der Anteil (an den genannten Gütern), die der Papst vermittelt, keineswegs gering geachtet werden, weil sie - wie ich schon sagte - die Erklärung der göttlichen Vergebung darstellen.
+	  <br></br>
+<strong>40. </strong>  Auch den gelehrtesten Theologen dürfte es sehr schwerfallen, vor dem Volk zugleich die Fülle der Ablässe und die Aufrichtigkeit der Reue zu rühmen.
+	  <br></br>
+<strong>41. </strong>  Aufrichtige Reue begehrt und liebt die Strafe. Die Fülle der Ablässe aber macht gleichgültig und lehrt sie hassen, wenigstens legt sie das nahe.
+	  <br></br>
+<strong>42. </strong>  Nur mit Vorsicht darf der apostolische Ablass gepredigt werden, damit das Volk nicht fälschlicherweise meint, er sei anderen guten Werken der Liebe vorzuziehen.
+	  <br></br>
+<strong>43. </strong>  Man soll die Christen lehren: Die Meinung des Papstes ist es nicht, dass der Erwerb von Ablass in irgendeiner Weise mit Werken der Barmherzigkeit zu vergleichen sei.
+	  <br></br>
+<strong>44. </strong>  Man soll den Christen lehren: Dem Armen zu geben oder dem Bedürftigen zu leihen ist besser, als Ablass zu kaufen.
+<br></br>
+<strong>45. </strong> Denn durch ein Werk der Liebe wächst die Liebe und wird der Mensch besser, aber durch Ablass wird er nicht besser, sondern nur teilweise von der Strafe befreit.
+	  <br></br>
+<strong>46. </strong> Man soll die Christen lehren: Wer einen Bedürftigen sieht, ihn übergeht und statt dessen für den Ablass gibt, kauft nicht den Ablass des Papstes, sondern handelt sich den Zorn Gottes ein.
+	  <br></br>
+<strong>47. </strong> Man soll die Christen lehren: Die, die nicht im Überfluss leben, sollen das Lebensnotwendige für ihr Hauswesen behalten und keinesfalls für den Ablass verschwenden.
+<br></br>
+<strong>48. </strong> Man soll die Christen lehren: Der Kauf von Ablass ist eine freiwillige Angelegenheit, nicht geboten.
+<br></br>
+<strong>49. </strong> Man soll die Christen lehren: Der Papst hat bei der Erteilung von Ablass ein für ihn dargebrachtes Gebet nötiger und wünscht es deshalb auch mehr als zur Verfügung gestelltes Geld.
+<br></br>
+<strong>50. </strong> Man soll die Christen lehren: Der Ablass des Papstes ist nützlich, wenn man nicht sein Vertrauen darauf setzt, aber sehr schädlich, falls man darüber die Furcht Gottes fahren lässt.
+<br></br>
+<strong>51. </strong> Man soll die Christen lehren: Wenn der Papst die Erpressungsmethoden der Ablassprediger wüsste, sähe er lieber die Peterskirche in Asche sinken, als daß sie mit Haut, Fleisch und Knochen seiner Schafe erbaut würde.
+<br></br>
+<strong>52. </strong> Man soll die Christen lehren: Der Papst wäre, wie es seine Pflicht ist, bereit - wenn nötig -, die Peterskirche zu verkaufen, um von seinem Gelde einem großen Teil jener zu geben, denen gewisse Ablassprediger das Geld aus der Tasche holen.
+<br></br>
+<strong>53. </strong>Auf Grund eines Ablassbriefes das Heil zu erwarten ist eitel, auch wenn der (Ablass-)Kommissar, ja der Papst selbst ihre Seelen dafür verpfändeten.
+<br></br>
+<strong>54. </strong> Die anordnen, dass um der Ablasspredigt willen das Wort Gottes in den umliegenden Kirchen völlig zum Schweigen komme, sind Feinde Christi und des Papstes.
+<br></br>
+<strong>55. </strong> Dem Wort Gottes geschieht Unrecht, wenn in ein und derselben Predigt auf den Ablass die gleiche oder längere Zeit verwendet wird als für jenes.
+<br></br>
+<strong>56. </strong> Die Meinung des Papstes ist unbedingt die: Wenn der Ablass - als das Geringste - mit einer Glocke, einer Prozession und einem Gottesdienst gefeiert wird, sollte das Evangelium - als das Höchste - mit hundert Glocken, hundert Prozessionen und hundert Gottesdiensten gepredigt werden.
+<br></br>
+<strong>57. </strong> Der Schatz der Kirche, aus dem der Papst den Ablass austeilt, ist bei dem Volke Christi weder genügend genannt noch bekannt. 
 
-<h3>3.1 Working Process of Brandmark</h3>
-Brandmark is a desktop program for logo generation. It requires the user to provide basic information of their company and then generates a huge amount of logos for the user to choose from. Its work process can be divided into the following steps:
--	entering the brand name and tagline (optional) 
-The brand name has to comprise at least two letters but does not have a limitation of maximum letters or words. 
--	entering brand keywords
-The user is required to describe their own brand in keywords. The entry can range from just one word to a number of sentences.
--	choosing the color style 
-After the brand name and keywords have been entered, Brandmark lets the user select at least one color style. There are four options: clean, simple; vibrant, intense; warm, natural; grey, neutral.
--	generating logos
-Within a few seconds after entering the above information, a vast amount of logos is generated. They are displayed horizontally on the screen, with one logo shown in the center. By pressing the left and right buttons, the next and previous logos can be seen.
--	selecting mode 
-At the same time as the logo displays, there is a mode option on the top of the screen with five options. The default option is “all”, and the other four options are: modern, vintage, playful, handwriting.
-For each logo, there is a buy button. By clicking on this button, the user can purchase this logo. In addition, there are four other buttons: save, edit, font and share. By clicking the edit button, the user can perform simple editing on the text, icon, and color of the logo, such as changing the icon, zooming in or out of the elements, or changing the color.
+<strong>58. </strong>  Offenbar besteht er nicht in zeitlichen Gütern, denn die würden viele von den Predigern nicht so leicht mit vollen Händen austeilen, sondern bloß sammeln.
+<br></br>
+<strong>59. </strong> Er besteht aber auch nicht aus den Verdiensten Christi und der Heiligen, weil diese dauernd ohne den Papst Gnade für den inwendigen Menschen sowie Kreuz, Tod und Hölle für den äußeren bewirken.
+<br></br>
+<strong>60. </strong> Der heilige Laurentius hat gesagt, dass der Schatz der Kirche ihre Armen seien, aber die Verwendung dieses Begriffes entsprach der Auffassung seiner Zeit.
+<br></br>
+<strong>61. </strong> Wohlbegründet sagen wird, dass die Schlüssel der Kirche - die ihr durch das Verdienst Christi geschenkt sind - jenen Schatz darstellen.
+<br></br>
+<strong>62. </strong> Selbstverständlich genügt die Gewalt des Papstes allein zum Erlass von Strafen und zur Vergebung in besondern, ihm vorbehaltenen Fällen.
+<br></br>
+<strong>63. </strong> Der wahre Schatz der Kirche ist das allerheiligste Evangelium von der Herrlichkeit und Gnade Gottes.
+<br></br>
+<strong>64. </strong> Dieser ist zu Recht allgemein verhasst, weil er aus Ersten Letzte macht.
+<br></br>
+<strong>65. </strong> Der Schatz des Ablasses jedoch ist zu Recht außerordentlich beliebt, weil er aus Letzten Erste macht.
+<br></br>
+<strong>66. </strong> Also ist der Schatz des Evangeliums das Netz, mit dem man einst die Besitzer von Reichtum fing.
+<br></br>
+<strong>67. </strong> Der Schatz des Ablasses ist das Netz, mit dem man jetzt den Reichtum von Besitzenden fängt.
+<br></br>
+<strong>68. </strong> Der Ablass, den die Ablassprediger lautstark als außerordentliche Gnaden anpreisen, kann tatsächlich dafür gelten, was das gute Geschäft anbelangt.
+<br></br>
+<strong>69. </strong>. Doch sind sie, verglichen mit der Gnade Gottes und der Verehrung des Kreuzes, in der Tat ganz geringfügig.
+<br></br>
+<strong>70. </strong> Die Bischöfe und Pfarrer sind gehalten, die Kommissare des apostolischen Ablasses mit aller Ehrerbietung zuzulassen.
+<br></br>
+<strong>71. </strong> Aber noch mehr sind sie gehalten, Augen und Ohren anzustrengen, dass jene nicht anstelle des päpstlichen Auftrags ihre eigenen Fantastereien predigen.
+<br></br>
+<strong>72. </strong> Wer gegen die Wahrheit des apostolischen Ablasses spricht, der sei verworfen und verflucht.
+<br></br>
+<strong>73. </strong> Aber wer gegen die Zügellosigkeit und Frechheit der Worte der Ablassprediger auftritt, der sei gesegnet.
+<br></br>
+<strong>74. </strong> Wie der Papst zu Recht seinen Bannstrahl gegen diejenigen schleudert, die hinsichtlich des Ablassgeschäftes auf mannigfache Weise Betrug ersinnen,
+<br></br>
+<strong>75. </strong> So will er viel mehr den Bannstrahl gegen diejenigen schleudern, die unter dem Vorwand des Ablasses auf Betrug hinsichtlich der heiligen Liebe und Wahrheit sinnen.
+<br></br>
+<strong>76. </strong> Es ist irrsinnig zu meinen, dass der päpstliche Ablass mächtig genug sei, einen Menschen loszusprechen, auch wenn er - was ja unmöglich ist - der Gottesgebärerin Gewalt angetan hätte.
+<br></br>
+<strong>77. </strong> Wir behaupten dagegen, dass der päpstliche Ablass auch nicht die geringste lässliche Sünde wegnehmen kann, was deren Schuld betrifft.
+<br></br>
+<strong>78. </strong> Wenn es heißt, auch der heilige Petrus könnte, wenn er jetzt Papst wäre, keine größeren Gnaden austeilen, so ist das eine Lästerung des heiligen Petrus und des Papstes.
+<br></br>
+<strong>79. </strong> Wir behaupten dagegen, dass dieser wie jeder beliebige Papst größere hat, nämlich das Evangelium, "Geisteskräfte und Gaben, gesund zu machen" usw., wie es 1. Kor. 12 heißt.
+<br></br>
+<strong>80. </strong> Es ist Gotteslästerung zu sagen, dass das (in den Kirchen) an hervorragender Stelle errichtete (Ablass-) Kreuz, das mit dem päpstlichen Wappen versehen ist, dem Kreuz Christi gleichkäme.
+<br></br>
+<strong>81. </strong> Bischöfe, Pfarrer und Theologen, die dulden, dass man dem Volk solche Predigt bietet, werden dafür Rechenschaft ablegen müssen.
+<br></br>
+<strong>82. </strong> Diese freche Ablasspredigt macht es auch gelehrten Männern nicht leicht, das Ansehen des Papstes vor böswilliger Kritik oder sogar vor spitzfindigen Fragen der Laien zu schützen.
+<br></br>
+<strong>83. </strong> Zum Beispiel: Warum räumt der Papst nicht das Fegefeuer aus um der heiligsten Liebe und höchsten Not der Seelen willen - als aus einem wirklich triftigen Grund -, da er doch unzählige Seelen loskauft um des unheilvollen Geldes zum Bau einer Kirche willen - als aus einem sehr fadenscheinigen Grund -?
+<br></br>
+<strong>84. </strong> Oder: Warum bleiben die Totenmessen sowie Jahrfeiern für die Verstorbenen bestehen, und warum gibt er (der Papst) nicht die Stiftungen, die dafür gemacht worden sind, zurück oder gestattet ihre Rückgabe,wenn es schon ein Unrecht ist, für die Losgekauften zu beten?
+<br></br>
+<strong>85. </strong> Oder: Was ist das für eine neue Frömmigkeit vor Gott und dem Papst, daß sie einem Gottlosen und Feinde erlauben, für sein Geld eine fromme und von Gott geliebte Seele loszukaufen; doch um der eigenen Not dieser frommen und geliebten Seele willen erlösen sie diese nicht aus freigeschenkter Liebe?
+<br></br>
+<strong>86. </strong> Oder: Warum werden die kirchlichen Bußsatzungen, die "tatsächlich und durch Nichtgebrauch" an sich längst abgeschafft und tot sind, doch noch immer durch die Gewährung von Ablass mit Geld abgelöst, als wären sie höchst lebendig?
+<br></br>
+<strong>87. </strong> Oder: Warum baut der Papst, der heute reicher ist als der reichste Crassus, nicht wenigstens die eine Kirche St. Peter lieber von seinem eigenen Geld als dem der armen Gläubigen?
+<br></br>
+<strong>88. </strong> Oder: Was erlässt der Papst oder woran gibt er denen Anteil, die durch vollkommene Reue ein Anrecht haben auf völligen Erlass und völlige Teilhabe?
+<br></br>
+<strong>89. </strong> Oder: Was könnte der Kirche Besseres geschehen, als wenn der Papst, wie er es (jetzt) einmal tut, hundertmal am Tage jedem Gläubigen diesen Erlass und diese Teilhabe zukommen ließe?
+<br></br>
+<strong>90. </strong> Wieso sucht der Papst durch den Ablass das Heil der Seelen mehr als das Geld; warum hebt er früher gewährte Briefe und Ablässe jetzt auf, die doch ebenso wirksam sind?
+<br></br>
+<strong>91. </strong> Diese äußerst peinlichen Einwände der Laien nur mit Gewalt zu unterdrücken und nicht durch vernünftige Gegenargumente zu beseitigen heißt, die Kirche und den Papst dem Gelächter der Feinde auszusetzen und die Christenheit unglücklich zu machen.
+<br></br>
+<strong>92. </strong> Wenn daher der Ablass dem Geiste und der Auffassung des Papstes gemäß gepredigt würde, lösten sich diese (Einwände) alle ohne weiteres auf, ja es gäbe sie überhaupt nicht.
+<br></br>
+<strong>93. </strong> Darum weg mit allen jenen Propheten, die den Christen predigen: "Friede, Friede", und ist doch kein Friede.
+<br></br>
+<strong>94. </strong> Wohl möge es gehen allen den Propheten, die den Christen predigen: "Kreuz, Kreuz", und ist doch kein Kreuz. 
+Man soll die Christen ermutigen, dass sie ihrem Haupt Christus durch Strafen, Tod und Hölle nachzufolgen trachten
+<br></br>
+<strong>95. </strong> und dass die lieber darauf trauen, durch viele Trübsale ins Himmelreich einzugehen, als sich in falscher geistlicher Sicherheit zu beruhigen.
+	  <br></br><br></br>
 
-<h3>3.2 Basic Components of Brandmark</h3>
-A logo consists of different parts, mainly font, color, layout and icon. Brandmark uses machine learning to learn which combinations are most harmonic. It specifically uses convolutional nets, word embeddings and GNN (Qiao, 2017). By observing the settings and code of Brandmark, it can be concluded that the model of program is mainly composed of two blocks: 
-Logo=BrandMark (Title, Tagline, Icon, Background)
-ColorScheme (Main color, Background color)
-In addition to this, through the analysis of the required input-information from users, the following input-model can be concluded: Input = (variable name, variable keyword, variable color, variable mode).
-Then the algorithm model processes the data and produces the logos.
 
-<h3>3.3 Correlation Analysis between Inputs and Outputs</h3>
-This reverse study begins with the generated result: logos. The content a logo includes icon, color, font and layout. Since a logo is composed of these four main elements (icon, color, font and layout), the analysis is divided into these four parts. In order to generate a logo, Brandmark requires the user to enter four parameters into a free text field. These parameters are: variable name, variable keyword, variable color and variable mode. In order to find out how a logo generator processes the data and creates logos, the connection between outputs und inputs must be analyzed. The method of this analysis is a correlation analysis, which is a statistical method used to evaluate the strength of relationship between two quantitative variables (Franzese and Iuliano, 2019, p. 706). The correlation analysis is composed of four parts: icon, color, font and layout. Next, each section will have a correlation analysis of the inputs with four variables. The analysis model is shown in the following figure (Analysis Model).
- <img id="img2" src="img/img2.jpg">
-Analysis Model
-In order to produce a richer understanding of the research data, this analysis is designed as a triangulation approach with a combination of quantitative and qualitative research. Quantitative research means that this analysis needs to obtain a large amount of data, i.e., a large number of generated logos. For each research sample, two hundred logos will be objectively collected. To gather each research sample of logos, its generation occurs under the specific condition that for the particular variable that is studied, different parameters are given, while the variables that are not studied remain identical. Qualitative research denotes the data analysis with observation and description, to bring depth of understanding to certain correlations. In addition to this, according to typology, logos can be divided into iconic, logotype, and complex logos (Adir, Adir and Pascu, 2014). For different focuses of analysis, the typology of logos will change. For example, if an icon will be analyzed, logos in the style of iconic will be collected more often. In contrast to this, if font will be analyzed, logos in the style of logotype will appear more frequently. 
 
-According to the analysis model described above, the correlation analysis was carried out as follows:
-<h5>3.3.1 Factors determining the Icon</h5>
-a. Variable Brand Name 
-In order to study whether the icon is determined by the brand name, two different brand name parameters have been chosen: Matrix Design and Focus Design. The parameters for keyword, mode and color were the same in both cases, namely creativity, vibrant, intense and all. The resulting icons shown in figure 1 and figure 2 in the appendix to this bachelor thesis are basically the same, which means that there is no direct correlation between the variable brand name and the icon created.
+<h1 id="section4">Friedrich Schiller</h1>
+<br></br>
+Hallo, mein Name ist Friedrich Schiller,
+ich bin wohl einer der bekanntesten Autoren meiner Zeit. Trotzdem lief es nicht immer so gut bei mir. Ich musste mein selbst publiziertes Werk, welches in achthundertfacher Ausgabe gedruckt wurde, zum großen Teil selbst verkaufen. Es lief jedoch so schlecht, dass ich die Meisten unter dem Wert verkaufen oder sogar verschenken musste.
 
-b. Variable Keyword
-To examine the correlation between keyword and icon, two different keywords have been chosen: creativity and technology. In both cases, the name parameter was Matrix, the mode parameter was all and the color parameter was vibrant, intense. The resulting logos in figures 3 and 4 in the appendix contain completely different icons, which means that the input variable keyword and icon have a strong direct correlation.
+<h1 id="section5">Die Räuber</h1>
 
-c. Variable Color
-In order to examine the correlation between color and icon, logos were generated with four different color parameters: clean, simple; vibrant, intense; warm, natural; grey, neutral. In all four cases the keyword was creativity, the mode was all and the name was Matrix Design. The resulted icons (shown in figures 5-8) are almost the same, which means that there is no direct correlation between the variable color and icon.
+ <br></br>
 
-d. Variable Mode
-The fourth part deals with different mode parameters: modern, vintage, playful, and handwriting. The keyword-, mode- and name-parameters are the same. The resulted icons (shown in figures 9-12) do not display any visible differences, which means that there is no correlation between the variable mode and icon.
+<h3>Vorrede.</h3>  
 
-<h5>3.3.2 Factors determining the Color</h5>
-Two colors can be found in a logo, the subject color and the background color. These two colors should be considered as a unit because when viewers see a logo, they do not distinguish the subject color from the background color. Instead they look at the color of the logo as a whole. Therefore, this study will regard logo color as a whole.
-
-a. Variable Brand Name
-First, in order to find the correlation between the variables name and color, two sets of words were entered into the name parameter: one set of words with a strong color tendency, Black Design and Red Design, and one set of words with strong emotional inclination, Joy Design and Sad Design. The parameters of the other three variables are identical. The generated results are shown in figures 13-16. In terms of color there is almost no difference between the Black Design and the Red Design. The color of the logos Joy Design and the Sad Design, however, are visibly different. It can be concluded that names with emotional inclinations have a strong influence on the logo color whereas names containing a color tendency do not.
-
-b. Variable Keyword
-Two sets of keywords with completely different attributes were given: joy, playful, open opposed to sad, serious, close. In the generated logos (shown in figures 17 and 18), there is no significant difference in color. Therefore, it can be concluded that there might not be a direct correlation between keywords and colors.
+Man nehme dieses Schauspiel für nichts Anderes, als eine dramatische Geschichte, die dieVortheile der dramatischen Methode, die Seele gleichsam bei ihren geheimsten Operationen zuertappen, benutzt, ohne sich übrigens in die Schranken eines Theaterstücks einzuzäunen, oder nachdem so zweifelhaften Gewinn bei theatralischer Verkörperung zu geizen. Man wird mir einräumen,daß es eine widersinnige Zumuthung ist, binnen drei Stunden drei Menschen zuerschöpfen, deren Thätigkeit von vielleicht tausend Räderchen abhängt, so wie es in der Natur derDinge unmöglich kann gegründet sein, daß sich drei außerordentliche Menschen auch demdurchdringendsten Geisterkenner innerhalb vierundzwanzig Stunden entblößen. Hier war Fülle ineinander gedrungener Realitäten vorhanden, die ich unmöglich in die allzu engen Pallisaden desAristoteles und Batteux einkeilen konnte.  <br></br>
+Nun ist es aber nicht sowohl die Masse meines Schauspiels, als vielmehr sein Inhalt, der es vonder Bühne verbannet. Die Oekonomie desselben machte es nothwendig, daß mancher Charakterauftreten mußte, der das feinere Gefühl der Tugend beleidigt und die Zärtlichkeit unserer Sitten empört.Jeder Menschenmaler ist in diese Nothwendigkeit eingesetzt, wenn er anders eine Copie derwirklichen Welt, und keine idealischen Affectationen, keine Compendien-Menschen will gelieferthaben. Es ist einmal so die Mode in der Welt, daß die Guten durch die Bösen schattiert werden unddie Tugend im Contrast mit dem Laster das lebendigste Colorit erhält. Wer sich den Zweckvorgezeichnet hat, das Laster zu stürzen und Religion, Moral und bürgerliche Gesetze an ihrenFeinden zu rächen, ein solcher muß das Laster in seiner nackten Abscheulichkeit enthüllen und inseiner kolossalischen Größe vor das Auge der Menschheit stellen, - er selbst muß augenblicklichseine nächtlichen Labyrinthe durchwandern, - er muß sich in Empfindungen hineinzuzwingen wissen,unter deren Widernatürlichkeit sich seine Seele sträubt.  <br></br> 
+Das Laster wird hier mit sammt seinem ganzen innern Räderwerk entfaltet. Es löst in Franzen alledie verworrenen Schauer des Gewissens in ohnmächtige Abstractionen auf, skeletisiert dierichtende Empfindung und scherzt die ernsthafte Stimme der Religion hinweg. Wer es einmal soweit gebracht hat (ein Ruhm, den wir ihm nicht beneiden), seinen Verstand auf Unkosten seinesHerzens zu verfeinern, dem ist das Heiligste nicht heilig mehr - dem ist die Menschen, die Gottheitnichts - beide Welten sind nichts in seinen Augen. Ich habe versucht, von einem Mißmenschendieser Art ein treffendes, lebendiges Conterfei hinzuwerfen, die vollständige Mechanik seinesLastersystems auseinander zu gliedern - und ihre Kraft an der Wahrheit zu prüfen. Man unterrichtesich demnach im Verfolg dieser Geschichte, wie weit ihr's gelungen hat. - Ich denke, ich habe dieNatur getroffen.   <br></br>
+Nächst an diesem steht ein Anderer, der vielleicht nicht wenige meiner Leser in Verlegenheitsetzen möchte. Ein Geist, den das äußerste Laster nur reizet um der Größe willen, die ihm anhänget; umder Kraft willen, die es erheischet; um der Gefahren willen, die es begleiten. Ein merkwürdiger,wichtiger Mensch, ausgestattet mit aller Kraft, nach der Richtung, die diese bekömmt, nothwendigentweder ein Brutus oder ein Catilina zu werden. Unglückliche Conjuncturen entscheiden für dasZweite, und erst am Ende einer ungeheuren Verirrung gelangt er zu dem Ersten. FalscheBegriffen von Thätigkeit und Einfluß, Fülle von Kraft, die alle Gesetze übersprudelt, mußten sichnatürlicher Weise an bürgerlichen Verhältnissen zerschlagen, und zu diesen enthusiastischen Träumenvon Größe und Wirksamkeit durfte sich nur eine Bitterkeit gegen die unidealische Welt gesellen, soward der seltsame Don Quixote fertig, den wir im Räuber Moor verabscheuen und lieben,bewundern und bedauern. Ich werde es hoffentlich nicht erst anmerken dürfen, daß ich diesesGemälde so wenig nur allein Räubern vorbehalte, als die Satire des Spaniers nur allein Ritter geißelt.   <br></br>
+Auch jetzt ist der große Geschmack, seinen Witz auf Kosten der Religion spielen zu lassen, daßman beinahe für kein Genie mehr passiert, wenn man nicht seinen gottlosen Satyr auf ihrenheiligsten Wahrheiten sich herumtummeln läßt. Die edle Einfalt der Schrift muß sich in alltäglichenAssembleen von den sogenannten witzigen Köpfen mißhandeln und ins Lächerliche verzerren lassen;denn was ist so heilig und ernsthaft, daß, wenn man es falsch verdreht, nicht belacht werden kann?- Ich kann hoffen, daß ich der Religion und der wahren Moral keine gemeine Rache verschafft habe,wenn ich diese muthwilligen Schriftverächter in der Person meiner schändlichsten Räuber demAbscheu der Welt überliefere.    <br></br>
+Aber noch mehr. Diese unmoralischen Charaktere, von denen vorhin gesprochen wurde, mußtenvon gewissen Seiten glänzen, ja oft von Seiten des Geistes gewinnen, was sie von Seiten desHerzens verlieren. Hierin habe ich nur die Natur gleichsam wörtlich abgeschrieben. Jedem, auchdem Lasterhaftesten, ist gewissermaßen der Stempel des göttlichen Ebenbildes aufgedrückt, undvielleicht hat der große Bösewicht keinen so weiten Weg zum großen Rechtschaffenen, als der kleine;denn die Moralität hält gleichen Gang mit den Kräften, und je weiter die Fähigkeit, desto weiter undungeheuerer ihre Verirrung, desto imputabler ihre Verfälschung. Klopstocks Adramelech weckt in uns eine Empfindung, worin Bewunderung in Abscheu schmilzt.Miltons Satan folgen wir mit schauderndem Erstaunen durch das unwegsame Chaos. Die Medeader alten Dramatiker bleibt bei allen ihren Gräueln noch ein so großes, staunenswürdiges Weib, undShakespeares Richard hat so gewiß am Leser einen Bewunderer, als er auch ihn hassen würde,wenn er ihm vor der Sonne stünde. Wenn es mir darum zu thun ist, ganze Menschen hinzustellen,so muß ich auch ihre Vollkommenheiten mitnehmen, die auch dem Bösesten nie ganz fehlen. Wennich vor dem Tiger gewarnt haben will, so darf ich seine schöne blendende Fleckenhaut nichtübergehen, damit man nicht den Tiger beim Tiger vermisse. Auch ist ein Mensch, der ganz Bosheitist, schlechterdings kein Gegenstand der Kunst und äußert eine zurückstoßende Kraft, statt daß er dieAufmerksamkeit der Leser fesseln sollte. Man würde umblättern, wenn er redet. Eine edle Seeleerträgt so wenig anhaltende moralische Dissonanzen, als das Ohr das Gekritzel eines Messers aufGlas.    <br></br>
+Aber eben darum will ich selbst mißrathen haben, dieses mein Schauspiel auf der Bühne zuwagen. Es gehört beiderseits, beim Dichter und seinem Leser, schon ein gewisser Gehalt vonGeisteskraft dazu: bei jenem, daß er das Laster nicht ziere, bei diesem, daß er sich nicht von einerschönen Seite bestechen lasse, auch den häßlichen Grund zu schätzen. Meinerseits entscheide einDritter - aber von meinen Lesern bin ich es nicht ganz versichert. Der Pöbel, worunter ichkeineswegs die Gassenkehrer allein will verstanden wissen, der Pöbel wurzelt (unter uns gesagt)weit um und gibt zum Unglück - den Ton an. Zu kurzsichtig, mein Ganzes auszureichen, zukleingeistisch, mein Großes zu begreifen, zu boshaft, mein Gutes wissen zu wollen, wird er, fürcht'ich, fast meine Absicht vereiteln, wird vielleicht eine Apologie des Lasters, das ich stürze, darin zufinden meinen und seine eigene Einfalt den armen Dichter entgelten lassen, dem mangemeiniglich Alles, nur nicht Gerechtigkeit widerfahren läßt.   <br></br>
+Es ist das ewige Da capo mit Abdera und Demokrit, und unsere guten Hippokrate müßten ganzePlantagen Nieswurz erschöpfen, wenn sie dem Unwesen durch ein heilsames Decoct abhelfenwollten. Noch so viele Freunde der Wahrheit mögen zusammenstehen, ihren Mitbürgern auf Kanzelund Schaubühne Schule zu halten, der Pöbel hört nie auf, Pöbel zu sein, und wenn Sonne und Mondsich wandeln, und Himmel und Erde veralten wie ein Kleid. Vielleicht hätt' ich, denSchwachherzigen zu frommen, der Natur minder getreu sein sollen; aber wenn jener Käfer, den wiralle kennen, auch den Mist aus den Perlen stört, wenn man Exempel hat, daß Feuer verbrannt undWasser ersäuft habe, soll darum Perle - Feuer - und Wasser confisciert werden?   Ich darf meiner Schrift, zufolge ihrer merkwürdigen Katastrophe, mit Recht einen Platz unter denmoralischen Büchern versprechen; das Laster nimmt den Ausgang, der seiner würdig ist. DerVerirrte tritt wieder in das Geleise der Gesetze. Die Tugend geht siegend davon. Wer nur so billiggegen mich handelt, mich ganz zu lesen, mich verstehen zu wollen, von dem kann ich erwarten,daß er - nicht den Dichter bewundere, aber den rechtschaffenen Mann in mir hochschätze.  
    
-c. Variable Color
-In this section, the same brand name, keyword and mode were used. Afterwards logos are generated based on four different color parameters: clean, simple; vibrant, intense; warm, natural; grey, neutral. The logo sets seen in resulting figures (figures 19-22) are completely different from each other. Accordingly, it can be inferred that the variable color has a crucial influence on the color style of the logo.
-
-d. Variable Mode
-In this section, the same brand name, keyword and color were set, and different data sets were generated according to the modes: modern, vintage, playful, and handwriting, as shown in the figures 23-26. It can be observed that there is no visible difference in color among the generated results. Therefore, it appears that there is no direct correlation between the variable mode and color.
-
-<h5>3.3.3 Factors determining the Font</h5>
-a. Variable Brand Name
-In order to see whether the variable brand name is directly influences the font, the conductor of this experiment selected four descriptive or symbolic names. These are: Focus Design, Mountain Design, Heavy Design, and Light Sushi. From the observation of data which are presented in the figures 27-30, there is no association between the font and brand name of the logo.
- 
-b. Variable Keyword
-For this set of comparison, brand name, color style, and mode were identical, but two sets of completely opposite keywords were given: light, thin, and triangle, compared to heavy, thick and circle. In the resulting logos, the font does not appear different in two samples, as shown in the figures 31 and 32. Therefore, it can be concluded that there might not be a correlation between font and variable keyword.
-
-c. Variable Color
-In order to test whether different color styles affect the font, different color variables have been chosen – namely clean, simple; vibrant, intense; warm, natural; grey, neutral –, whereas brand name, keyword and mode remained identical. The generated logo data is as shown in the figures 33-36. The data of the four groups does not show any significant correlation between font and color. 
-
-d. Variable Mode
-Here, the data was generated with different modes (modern, vintage, playful and handwriting) and the same settings of brand name, keyword and color. It can be seen in figures 37-40 that the fonts of the four sets are different from each other. In the modern mode, the fonts are mostly sans serif typeface. In the vintage mode, the font is primarily serif typeface. In the mode playful, the fonts tend to be more decorative. Further, in the handwriting mode, the fonts are mostly in a hand-drawn style. Therefore, it can be concluded that there is a strong correlation between the variable mode and the font.
-
-<h5>3.3.4 Factors determining the Layout</h5>
-a. Variable Brand Name
-Four names with different lengths were given: MD, Matrix Design, Matrix Design Studio, and Beijing Matrix Design Studio. Sorted by different lengths of names and other identical parameters, the generated logo data is shown in the figures 41-44. They show that the length of a name significantly influences the layout, which proves that the variable brand name has a distinct correlation with the layout.
-
-b. Variable Keyword
-In this section, with otherwise identical variables, four keywords with completely different tendencies were given: oblique, vertical, horizontal and square. The resulting data is shown in the figures 45-48. It can still be concluded that the keyword seems to have an impact only on the icon. It does not affect the layout.
-
-c. Variable Color
-This set aims to find out if different color styles will affect the layout. The color variables selected were: clean, simple; vibrant, intense; warm, natural; grey, neutral. The other variables were identical. The layouts in four samples (shown in figures 49-52) do not appear to be different from each other. It can be concluded that there is no correlation between layout and color style.
-
-d. Variable Mode
-In this setting the logo generator was provided with different mode parameters, namely modern, vintage, playful, and handwriting, and the same keyword-, mode-, and name-parameters. There are no substantial differences in the layouts of the resulting logo groups (figures 53-56) which means that there is no direct correlation between the variable mode and layout. 
-
-
-<h1 id="section5">4.Result and Discussion</h1>
-<br></br>
-<h3>4.1 Result</h3>
-The result of the correlation analysis process in the previous section can be summarized as follows:
--	icons of the generated logos are determined by the variable keyword
--	the generated color is, on one hand, affected by the color style, but also by the attributes of the brand name
--	mode selection has a significant impact on the font of generated logos
--	the layout of the logo is determined by the brand name, particularly the length of brand name
-
-The entire work process of Brandmark can be divided into three layers, as shown in the following figure: the input layer, the hidden layer and the output layer.
-
- 
-The user supplies the data in an input layer, the input data and the data stored in the background of the program are processed in a hidden layer and, finally, the program outputs are presented in an output layer. 
-
-After the analysis, the mechanisms of generative programs with machine leaning can be concluded as follows:
-- Defining the target
-For instance, designing logos. A logo consists of the elements, icon, color, font, and layout;
-- Letting the machine perceptron understand ‘what is a logo’, and its data form.
-In order to design an algorithm model, a program must learn a large amount of tagged logo data. Through training, the machine has mastered which elements make up a logo and how they are combined. Through machine learning, it establishes a generative algorithm model for logo design.
-- Creating a data base of design elements
-The data base for the logo generator incorporates a large amount of design element data, such as icon, color scheme, font.
-- Generation process
-After the layout frame has been given by the program, the generation system matches multiple corresponding elements according to the inputs that are provided by the user. Then it puts the elements into the framework, and finally combines these elements in a layout frame and generates logos. 
-
-<h3>4.2 Discussion</h3>
-From understanding how a logo generator works, it can be stated that a logo generator poses a challenge to human designers as a fierce competitor equipped with data and algorithms opposed to inspiration and intuition. The most powerful strength of Brandmark lies in the data processing and its combination with a large amount of stored design elements. Its workflow is actually a data matching process: By matching an icon with a keyword, a brand name and different fonts, it “translates” the designer’s intuitive behavior into data computation. With the advantage of vast data and computing power, Brandmark can generate tens of thousands of logos in a few seconds. This efficiency exceeds by far the abilities of a single human designer. Because a logo generator makes the task of logo design easy and affordable for the customer, entrepreneurs do not need a large budget, nor do they need to find a human designer anymore. More importantly, the most significant capability of machine learning lies in learning. A machine perceptron constantly learns from the user’s behavior, day after day, refining its algorithms and generating better logos. It can clearly be seen that the logo quality has improved considerably from the first to the second version of Brandmark. One has to wonder what kind of logos will be generated by logo generators like Brandmark in five years from now.
-
-However, according to Brandmark’s founder, Brandmark is still immature at this stage and cannot replace human designers (Qiao, 2017). Indeed, there are rarely any amazing masterpieces in the tens of thousands of generated logos – but why? This paper suggests that three factors are responsible for the low design quality of Brandmark’s logos:
-<h5>4.2.1 Inaccuracy of Icon Creation</h5>
-In logo design, the icon plays a crucial role. In a logo generator, icons are strongly related to keywords, and are selected from a stored icon dataset. However, an icon generated this way is often inaccurate and does not exactly convey the culture and value of the company. One reason for that is that the keyword is often not precise. Users of logo generators usually select the keywords in a relatively short time and do not reflect their keywords carefully enough. Therefore, the keywords often fail to accurately convey the entrepreneurial value and culture. In contrast to this, a designer creating a logo for a company spends a lot of time collecting and refining information, communicating with clients, repeatedly trying to figure out the core vision of the company, and then thinking a long time to create a kind of symbol to convey its business value. Unprecise keywords, however, neutralize the quality of the logos. Furthermore, even if the user gives a relatively precise keyword, a logo generator creates icons through the approach of a matching process, not a semantic generation. It is impossible to correspond to the semantics of keywords, particularly when an abstract word has been given since the meaning of this kind of word is more difficult to interpret. After the observation of a large number of icons from the dataset at hand, it becomes clear that these icons can accurately express the meaning of concrete words, such as coffee and pigeons. However, abstract vocabulary such as art, creativity and innovation can barely be represented accurately with stored icons. 
-There are two possible solutions for this problem. First, the practice of obtaining the keyword could be improved by assigning the keyword search to the perceptron. The logo generator could scan the product catalogue of a company, search for information on the website of a company, and then evaluate the keywords through advanced analysis algorithms. Through this method, more precise keywords could be extracted. Second, the transition from keywords to icons should be improved. The latest deep learning approach, Text2Image, which can convert text into image, might be an innovative breakthrough for this problem. Its generator in GANs (generative adversarial networks) creates pictures according to the text feature from a descriptive text, which is a more intelligent approach than just reflecting data. This way, future Artificial Intelligences might create creative symbols instead of just icons. 
-
-4.2.2 The Correlation Between Inputs and Outputs is singular
-The second factor responsible for the relatively low quality of logos created by Brandmark is that there are only very few correlations between input layer, hidden layer and output layer. As proven in section 3, the layers mostly have only single connections. One input element determines another output element, e.g., a keyword determines an icon and a color mode affects a color style. This is a rather simple structure, producing results that do not always meet the requirements for a logo as a context symbol. In contrast, when a professional designer creates a logo, the graphic symbol affects font, the semantics of name and keyword have an impact on the color and the layout interacts with all other elements, creating a strong symbolic representation. This interaction between the logo elements is of high significance. Therefore, the number of connections between the layers should be increased. For example, the keyword could determine the font and color and not just the icon. 
-
-4.2.3 Lack of Quality Evaluation
-The third decisive factor in the low quality of the logos is that the system does not have any approaches for filtering bad logos. The Brandmark website does feature a logo evaluation system called “LogoRank”, which gives users the opportunity to rank logos based on the criteria uniqueness, legibility and contrast (Brandmark.io, 2019). However, this system is not embedded in the generation system. Therefore, it cannot help the generator to improve the quality of logos. But if the developers of Brandmark wish to evaluate and improve the output of logos, they can embed GANs. GANs consist of two different neural networks, a generator and a discriminator, that are trained simultaneously in a competitive manner (Mino, and Spanakis, 2019). From the competition, two networks attempt to continually improve their algorithm model for better generation and discrimination. This approach would pave the way to solve the problem of quality and update the process of logo generation. 
-
- 
 
 
 

@@ -38,7 +38,7 @@ font-family: 'ebgaramondregular', Baskerville, "Palatino Linotype", Palatino, "C
 }
 
 #frontsubtitel{
-	font-size: 1.6rem;
+	font-size: 2rem;
 	font-style: normal;
 	font-weight: lighter;
 	text-align: center;
@@ -47,6 +47,9 @@ font-family: 'ebgaramondregular', Baskerville, "Palatino Linotype", Palatino, "C
 }
 #autor {text-align: center;
 	font-size: 1.6rem;
+}
+#imag1{
+    height: 200px;
 }
 
 h1 {
