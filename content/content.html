@@ -87,26 +87,26 @@ Today, start-ups have another option that offers greater efficiency and a lower 
 
 <h4 id="section4">3.Material and Method</h4>
 <br></br>
-</h6>The purpose of this study is to gain an understanding of how a machine perception generates logos. The research takes the form of a reverse study, which means it will reveal design principles by starting with the results. The program generates a large number of logos based on the information the user enters. In order to explore the mechanism of logo generators, the correlation between outputs (logos) and inputs (information entered by the user) will be analyzed. This study concentrates on the logo generating program Brandmark. Brandmark has generated logos with deep learning for more than 108,704 users (Qiao, 2017). The research will be divided into three parts: 1. the observation of the work process of Brandmark; 2. the disassembly of the basic components of Brandmark; 3. the analysis of the correlation between inputs and outputs. </h6>
+<h6>The purpose of this study is to gain an understanding of how a machine perception generates logos. The research takes the form of a reverse study, which means it will reveal design principles by starting with the results. The program generates a large number of logos based on the information the user enters. In order to explore the mechanism of logo generators, the correlation between outputs (logos) and inputs (information entered by the user) will be analyzed. This study concentrates on the logo generating program Brandmark. Brandmark has generated logos with deep learning for more than 108,704 users (Qiao, 2017). The research will be divided into three parts: 1. the observation of the work process of Brandmark; 2. the disassembly of the basic components of Brandmark; 3. the analysis of the correlation between inputs and outputs. </h6>
 <br></br>
 
 <h5>3.1 Working Process of Brandmark</h5>
-</h6>Brandmark is a desktop program for logo generation. It requires the user to provide basic information of their company and then generates a huge amount of logos for the user to choose from. Its work process can be divided into the following steps:
--	entering the brand name and tagline (optional) 
+<h6>Brandmark is a desktop program for logo generation. It requires the user to provide basic information of their company and then generates a huge amount of logos for the user to choose from. Its work process can be divided into the following steps:
+- entering the brand name and tagline (optional) 
 The brand name has to comprise at least two letters but does not have a limitation of maximum letters or words. 
--	entering brand keywords
+- entering brand keywords
 The user is required to describe their own brand in keywords. The entry can range from just one word to a number of sentences.
--	choosing the color style 
+- choosing the color style 
 After the brand name and keywords have been entered, Brandmark lets the user select at least one color style. There are four options: clean, simple; vibrant, intense; warm, natural; grey, neutral.
--	generating logos
+- generating logos
 Within a few seconds after entering the above information, a vast amount of logos is generated. They are displayed horizontally on the screen, with one logo shown in the center. By pressing the left and right buttons, the next and previous logos can be seen.
--	selecting mode 
+- selecting mode 
 At the same time as the logo displays, there is a mode option on the top of the screen with five options. The default option is “all”, and the other four options are: modern, vintage, playful, handwriting.
 For each logo, there is a buy button. By clicking on this button, the user can purchase this logo. In addition, there are four other buttons: save, edit, font and share. By clicking the edit button, the user can perform simple editing on the text, icon, and color of the logo, such as changing the icon, zooming in or out of the elements, or changing the color.</h6>
 <br></br>
 
 <h5>3.2 Basic Components of Brandmark</h5>
-</h6>A logo consists of different parts, mainly font, color, layout and icon. Brandmark uses machine learning to learn which combinations are most harmonic. It specifically uses convolutional nets, word embeddings and GNN (Qiao, 2017). By observing the settings and code of Brandmark, it can be concluded that the model of program is mainly composed of two blocks: 
+<h6>A logo consists of different parts, mainly font, color, layout and icon. Brandmark uses machine learning to learn which combinations are most harmonic. It specifically uses convolutional nets, word embeddings and GNN (Qiao, 2017). By observing the settings and code of Brandmark, it can be concluded that the model of program is mainly composed of two blocks: 
 Logo=BrandMark (Title, Tagline, Icon, Background)
 ColorScheme (Main color, Background color)
 In addition to this, through the analysis of the required input-information from users, the following input-model can be concluded: Input = (variable name, variable keyword, variable color, variable mode).
@@ -114,19 +114,19 @@ Then the algorithm model processes the data and produces the logos.</h6>
 <br></br>
 
 <h5>3.3 Correlation Analysis between Inputs and Outputs</h5>
-</h6>This reverse study begins with the generated result: logos. The content a logo includes icon, color, font and layout. Since a logo is composed of these four main elements (icon, color, font and layout), the analysis is divided into these four parts. In order to generate a logo, Brandmark requires the user to enter four parameters into a free text field. These parameters are: variable name, variable keyword, variable color and variable mode. In order to find out how a logo generator processes the data and creates logos, the connection between outputs und inputs must be analyzed. The method of this analysis is a correlation analysis, which is a statistical method used to evaluate the strength of relationship between two quantitative variables (Franzese and Iuliano, 2019, p. 706). The correlation analysis is composed of four parts: icon, color, font and layout. Next, each section will have a correlation analysis of the inputs with four variables. The analysis model is shown in the following figure (Analysis Model).</h6>
+<h6>This reverse study begins with the generated result: logos. The content a logo includes icon, color, font and layout. Since a logo is composed of these four main elements (icon, color, font and layout), the analysis is divided into these four parts. In order to generate a logo, Brandmark requires the user to enter four parameters into a free text field. These parameters are: variable name, variable keyword, variable color and variable mode. In order to find out how a logo generator processes the data and creates logos, the connection between outputs und inputs must be analyzed. The method of this analysis is a correlation analysis, which is a statistical method used to evaluate the strength of relationship between two quantitative variables (Franzese and Iuliano, 2019, p. 706). The correlation analysis is composed of four parts: icon, color, font and layout. Next, each section will have a correlation analysis of the inputs with four variables. The analysis model is shown in the following figure (Analysis Model).</h6>
 
 
 <img class="img-xys" src="content/img/7.jpg">
 
 
 
-</h6>In order to produce a richer understanding of the research data, this analysis is designed as a triangulation approach with a combination of quantitative and qualitative research. Quantitative research means that this analysis needs to obtain a large amount of data, i.e., a large number of generated logos. For each research sample, two hundred logos will be objectively collected. To gather each research sample of logos, its generation occurs under the specific condition that for the particular variable that is studied, different parameters are given, while the variables that are not studied remain identical. Qualitative research denotes the data analysis with observation and description, to bring depth of understanding to certain correlations. In addition to this, according to typology, logos can be divided into iconic, logotype, and complex logos (Adir, Adir and Pascu, 2014). For different focuses of analysis, the typology of logos will change. For example, if an icon will be analyzed, logos in the style of iconic will be collected more often. In contrast to this, if font will be analyzed, logos in the style of logotype will appear more frequently. </h6>
+<h6>In order to produce a richer understanding of the research data, this analysis is designed as a triangulation approach with a combination of quantitative and qualitative research. Quantitative research means that this analysis needs to obtain a large amount of data, i.e., a large number of generated logos. For each research sample, two hundred logos will be objectively collected. To gather each research sample of logos, its generation occurs under the specific condition that for the particular variable that is studied, different parameters are given, while the variables that are not studied remain identical. Qualitative research denotes the data analysis with observation and description, to bring depth of understanding to certain correlations. In addition to this, according to typology, logos can be divided into iconic, logotype, and complex logos (Adir, Adir and Pascu, 2014). For different focuses of analysis, the typology of logos will change. For example, if an icon will be analyzed, logos in the style of iconic will be collected more often. In contrast to this, if font will be analyzed, logos in the style of logotype will appear more frequently. </h6>
 
-</h6>According to the analysis model described above, the correlation analysis was carried out as follows:</h6>
+<h6>According to the analysis model described above, the correlation analysis was carried out as follows:</h6>
 <br></br>
 <h5>3.3.1 Factors determining the Icon</h5>
-</h6>a. Variable Brand Name 
+<h6>a. Variable Brand Name 
 In order to study whether the icon is determined by the brand name, two different brand name parameters have been chosen: Matrix Design and Focus Design. The parameters for keyword, mode and color were the same in both cases, namely creativity, vibrant, intense and all. The resulting icons shown in figure 1 and figure 2 in the appendix to this bachelor thesis are basically the same, which means that there is no direct correlation between the variable brand name and the icon created.</h6>
 
 b. Variable Keyword
@@ -151,8 +151,9 @@ c. Variable Color
 In this section, the same brand name, keyword and mode were used. Afterwards logos are generated based on four different color parameters: clean, simple; vibrant, intense; warm, natural; grey, neutral. The logo sets seen in resulting figures (figures 19-22) are completely different from each other. Accordingly, it can be inferred that the variable color has a crucial influence on the color style of the logo.
 
 d. Variable Mode
-In this section, the same brand name, keyword and color were set, and different data sets were generated according to the modes: modern, vintage, playful, and handwriting, as shown in the figures 23-26. It can be observed that there is no visible difference in color among the generated results. Therefore, it appears that there is no direct correlation between the variable mode and color.
+In this section, the same brand name, keyword and color were set, and different data sets were generated according to the modes: modern, vintage, playful, and handwriting, as shown in the figures 23-26. It can be observed that there is no visible difference in color among the generated results. Therefore, it appears that there is no direct correlation between the variable mode and color.</h6>
 <br></br>
+
 <h5>3.3.3 Factors determining the Font</h5>
 a. Variable Brand Name
 In order to see whether the variable brand name is directly influences the font, the conductor of this experiment selected four descriptive or symbolic names. These are: Focus Design, Mountain Design, Heavy Design, and Light Sushi. From the observation of data which are presented in the figures 27-30, there is no association between the font and brand name of the logo.
