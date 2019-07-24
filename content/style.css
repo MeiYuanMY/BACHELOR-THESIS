@@ -57,7 +57,7 @@ font-family: 'ebgaramondregular', Baskerville, "Palatino Linotype", Palatino, "C
 }
 #autor {
 	
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 
 
@@ -95,6 +95,10 @@ sup {
   margin: auto auto;
   max-width: 1000px;
   padding: 20px;
+}
+
+.farParentDiv ul li {
+   font-size:1.3rem;
 }
 
 p {
